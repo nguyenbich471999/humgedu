@@ -37,12 +37,12 @@ namespace BT2008
             this.label6 = new System.Windows.Forms.Label();
             this.txtNhapso = new System.Windows.Forms.TextBox();
             this.txtDayvuanhap = new System.Windows.Forms.TextBox();
-            this.txtTongchan = new System.Windows.Forms.TextBox();
-            this.txtTongle = new System.Windows.Forms.TextBox();
-            this.txtTongcacphantutrongday = new System.Windows.Forms.TextBox();
+            this.txtTongChan = new System.Windows.Forms.TextBox();
+            this.txtTongLe = new System.Windows.Forms.TextBox();
+            this.txtTongCacPT = new System.Windows.Forms.TextBox();
             this.btnNhap = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.btnTieptuc = new System.Windows.Forms.Button();
+            this.btnTiepTuc = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -116,26 +116,26 @@ namespace BT2008
             this.txtDayvuanhap.Size = new System.Drawing.Size(100, 20);
             this.txtDayvuanhap.TabIndex = 7;
             // 
-            // txtTongchan
+            // txtTongChan
             // 
-            this.txtTongchan.Location = new System.Drawing.Point(182, 231);
-            this.txtTongchan.Name = "txtTongchan";
-            this.txtTongchan.Size = new System.Drawing.Size(100, 20);
-            this.txtTongchan.TabIndex = 8;
+            this.txtTongChan.Location = new System.Drawing.Point(182, 231);
+            this.txtTongChan.Name = "txtTongChan";
+            this.txtTongChan.Size = new System.Drawing.Size(100, 20);
+            this.txtTongChan.TabIndex = 8;
             // 
-            // txtTongle
+            // txtTongLe
             // 
-            this.txtTongle.Location = new System.Drawing.Point(420, 234);
-            this.txtTongle.Name = "txtTongle";
-            this.txtTongle.Size = new System.Drawing.Size(100, 20);
-            this.txtTongle.TabIndex = 9;
+            this.txtTongLe.Location = new System.Drawing.Point(420, 234);
+            this.txtTongLe.Name = "txtTongLe";
+            this.txtTongLe.Size = new System.Drawing.Size(100, 20);
+            this.txtTongLe.TabIndex = 9;
             // 
-            // txtTongcacphantutrongday
+            // txtTongCacPT
             // 
-            this.txtTongcacphantutrongday.Location = new System.Drawing.Point(252, 193);
-            this.txtTongcacphantutrongday.Name = "txtTongcacphantutrongday";
-            this.txtTongcacphantutrongday.Size = new System.Drawing.Size(100, 20);
-            this.txtTongcacphantutrongday.TabIndex = 10;
+            this.txtTongCacPT.Location = new System.Drawing.Point(252, 193);
+            this.txtTongCacPT.Name = "txtTongCacPT";
+            this.txtTongCacPT.Size = new System.Drawing.Size(100, 20);
+            this.txtTongCacPT.TabIndex = 10;
             // 
             // btnNhap
             // 
@@ -157,27 +157,27 @@ namespace BT2008
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // btnTieptuc
+            // btnTiepTuc
             // 
-            this.btnTieptuc.Location = new System.Drawing.Point(332, 303);
-            this.btnTieptuc.Name = "btnTieptuc";
-            this.btnTieptuc.Size = new System.Drawing.Size(75, 23);
-            this.btnTieptuc.TabIndex = 13;
-            this.btnTieptuc.Text = "Tiếp tục";
-            this.btnTieptuc.UseVisualStyleBackColor = true;
-            this.btnTieptuc.Click += new System.EventHandler(this.button3_Click);
+            this.btnTiepTuc.Location = new System.Drawing.Point(332, 303);
+            this.btnTiepTuc.Name = "btnTiepTuc";
+            this.btnTiepTuc.Size = new System.Drawing.Size(75, 23);
+            this.btnTiepTuc.TabIndex = 13;
+            this.btnTiepTuc.Text = "Tiếp tục";
+            this.btnTiepTuc.UseVisualStyleBackColor = true;
+            this.btnTiepTuc.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnTieptuc);
+            this.Controls.Add(this.btnTiepTuc);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnNhap);
-            this.Controls.Add(this.txtTongcacphantutrongday);
-            this.Controls.Add(this.txtTongle);
-            this.Controls.Add(this.txtTongchan);
+            this.Controls.Add(this.txtTongCacPT);
+            this.Controls.Add(this.txtTongLe);
+            this.Controls.Add(this.txtTongChan);
             this.Controls.Add(this.txtDayvuanhap);
             this.Controls.Add(this.txtNhapso);
             this.Controls.Add(this.label6);
@@ -204,12 +204,12 @@ namespace BT2008
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtNhapso;
         private System.Windows.Forms.TextBox txtDayvuanhap;
-        private System.Windows.Forms.TextBox txtTongchan;
-        private System.Windows.Forms.TextBox txtTongle;
-        private System.Windows.Forms.TextBox txtTongcacphantutrongday;
+        private System.Windows.Forms.TextBox txtTongChan;
+        private System.Windows.Forms.TextBox txtTongLe;
+        private System.Windows.Forms.TextBox txtTongCacPT;
         private System.Windows.Forms.Button btnNhap;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnTieptuc;
+        private System.Windows.Forms.Button btnTiepTuc;
     }
 }
 

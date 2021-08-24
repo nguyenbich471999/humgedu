@@ -39,13 +39,36 @@ namespace BT2008
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int x = Convert.ToInt32(txtNhapso.Text);
+            txtDayvuanhap.Text += x.ToString() + " ";
+            if (x % 2 == 0)
+            {
+                tongchan += x;
+                txtTongChan.Text = tongchan.ToString();
+            }
+            else
+            {
+                tongle += x;
+                txtTongLe.Text = tongle.ToString();
+            }
 
+            tongdayso += x;
+            txtTongCacPT.Text = tongdayso.ToString();
+
+            txtNhapso.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            txtDayvuanhap.Text = "";
+            txtTongCacPT.Text = "";
+            txtTongChan.Text = "";
+            txtTongLe.Text = "";
+            tongchan = 0;
+            tongle = 0;
+            tongdayso = 0;
         }
+        int tongchan = 0, tongle = 0, tongdayso = 0;
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
