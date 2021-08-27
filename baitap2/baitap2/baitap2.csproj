@@ -164,6 +164,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -209,6 +210,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Demo\hello.cshtml" />
     <Content Include="Views\Demo\GiaiPTB1.cshtml" />
+    <Content Include="Views\Student\GetInfo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
